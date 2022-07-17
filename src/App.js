@@ -12,6 +12,7 @@ function App() {
       url: "http://il-libero.com",
       desc: "This site can be used to watch any movie, tv show or anime ever made",
       image: illibero,
+      date: "06/04/22",
     },
     {
       name: "Tic Tac Toe",
@@ -20,6 +21,7 @@ function App() {
       url: "http://md98-ttt.netlify.app",
       desc: "N/A",
       image: ttt,
+      date: "16/07/22",
     },
     {
       name: "Calculator",
@@ -28,6 +30,7 @@ function App() {
       url: "http://md98-calculator.netlify.app",
       desc: "N/A",
       image: calculator,
+      date: "17/07/22",
     },
   ];
 
@@ -55,6 +58,9 @@ function App() {
                   </h5>
                   <h5>
                     <span>Description:</span> {app.desc}
+                  </h5>
+                  <h5>
+                    <span>Date:</span> {app.date}
                   </h5>
                 </div>
               </div>
