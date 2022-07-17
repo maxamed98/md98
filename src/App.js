@@ -1,9 +1,18 @@
 import "./App.css";
-import calculator from "./images/calculator.jpg";
+import illibero from "./images/il-libero.jpg";
 import ttt from "./images/ttt.jpg";
+import calculator from "./images/calculator.jpg";
 
 function App() {
   const apps = [
+    {
+      name: "Il Libero",
+      type: "Streaming App",
+      level: "Intermediate",
+      url: "http://il-libero.com",
+      desc: "This site can be used to watch any movie, tv show or anime ever made",
+      image: illibero,
+    },
     {
       name: "Tic Tac Toe",
       type: "Game",
@@ -38,9 +47,15 @@ function App() {
                 </div>
                 <img src={app.image} alt={app.name} />
                 <div className="app-info">
-                  <h5>Type: {app.type}</h5>
-                  <h5>Complexity: {app.level}</h5>
-                  <h5>Description: {app.desc}</h5>
+                  <h5>
+                    <span>Type:</span> {app.type}
+                  </h5>
+                  <h5>
+                    <span>Complexity:</span> {app.level}
+                  </h5>
+                  <h5>
+                    <span>Description:</span> {app.desc}
+                  </h5>
                 </div>
               </div>
             </a>
