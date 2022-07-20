@@ -2,6 +2,7 @@ import "./App.css";
 import illibero from "./images/il-libero.jpg";
 import ttt from "./images/ttt.jpg";
 import calculator from "./images/calculator.jpg";
+import charter from "./images/charter.jpg";
 
 function App() {
   const apps = [
@@ -31,6 +32,15 @@ function App() {
       desc: "N/A",
       image: calculator,
       date: "17/07/22",
+    },
+    {
+      name: "Charter",
+      type: "Tool",
+      level: "Intermediate",
+      url: "http://md98-charter.netlify.app",
+      desc: "This tool creates a chart when given input data",
+      image: charter,
+      date: "20/07/22",
     },
   ];
 
